@@ -20,7 +20,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   array.any?{|element|
-  element.capitalize + "!"
+  element.length > 4
   }
 end
 
